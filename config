@@ -4,3 +4,5 @@
 	filemode = false
 	bare = true
 	logallrefupdates = false
+[remote "origin"]
+	url = http://www.github.com/tungyap
