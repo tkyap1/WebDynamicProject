@@ -29,7 +29,9 @@ public class MyServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		out.print("Hello Web Dynamic Project");
+		String firstName = request.getParameter("firstName");
+		String lastName = request.getParameter("lastName");
+		out.print("Hello "+firstName+" "+lastName+" from Web Dynamic Project!");
 	}
 
 	/**

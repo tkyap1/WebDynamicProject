@@ -9,6 +9,8 @@
 <body>
 <h1> Web Dynamic Project Header </h1>
 <form action="MyServlet">
+First Name: <input type="text" name="firstName"/>
+Last Name: <input type="text" name="lastName"/>
 <input type="Submit" value="Send" />
 </form>
 </body>
